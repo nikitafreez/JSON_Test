@@ -19,7 +19,7 @@ namespace JSON_Test
                , "Hines", "Caldwell", "Robertson", "Strickland", "Gosling", "Cameron"};
             var surnameList = new List<string>(surnames);
 
-            const int HOW_MANY_PERSONS = 100;
+            const int HOW_MANY_PERSONS = 1000;
             Random rnd = new Random();
             for (int i = 0; i < HOW_MANY_PERSONS; i++)
             {
